@@ -1,0 +1,25 @@
+.musicMelvinPic {
+  background-color: gray;
+  background-image: url("/images/music-page-image.jpg");
+  /* Full height */
+  height: 90%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(95%);
+}
+.musicPage {
+  padding-bottom: 1em;
+}
+.sellGrid {
+  display: grid;
+  grid-template-columns: auto auto auto
+}
+.sellGrid > img {
+  width: 100px;
+}
+.sellGrid > a > img {
+  width: 100px;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+  width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.responsive {
+  /* max-width: 100%; */
+  /* height: auto; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.positionRelative {
+  position: relative;
+}
+.positionAbsolute {
+  position: absolute;
+}
+.leftImageAlign{
+  margin-left: auto;
+}
+.rightImageAlign{
+  margin-right: auto;
+}
+.videoAlignLeft > iframe {
+  margin-left: auto;
+  padding-right: 1em;
+}
+.navigationGrid {
+  background-color: #dbae52;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+.navigationGrid > li{
+  display: inline-block;
+  text-align: center;
+  padding: 2em 2em;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.navigationGrid li:hover {
+  color: gray;
+}
+.navigationGrid > li > a:visited {
+  color: white;
+}
+.navigationGrid > li > a {
+  text-decoration: none;
+}
+.navigationGrid > li > a:hover {
+  color: gray;
+}
+.links {
+  padding: 1em 1em 1em 0;
+  font-size: 30px;
+  color: #dbae52;
+}
+.links a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+.links a:hover{
+  color: gray;
+}
+.melvinPic{
+  background-color: gray;
+  background-image: url("/images/melvin-pic.jpg");
+  /* Full height */
+  height: 91%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(95%);
+}
+.videoMelvinPic{
+  background-color: gray;
+  background-image: url("/images/video-head-image.jpg");
+  /* Full height */
+  height: 90%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(95%);
+}
+.picParent{
+  top :0;
+  left: 0;
+}
+.picImageOne{
+  top: 0;
+  left: 0;
+}
+.picImageTwo {
+  max-height: 20%;
+  top: 65%;
+  left: 35%;
+}
+.imgFit {
+  object-fit: cover;
+}
+#sheldonEvent{
+  background-color: black;
+}
+.sheldonInfo {
+  display: none;
+  background-color: black;
+}
+.linkGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2em;
+}
+.linkGrid > img{
+  width: 100%;
+}
+.melvinHistory > p{
+  /* font-family: arial; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #dbae52;
+  /* padding: 0 5em 0 5em; */
+  text-align: center;
+}
+.videoGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2em 1em 0 0;
+}
+.videoInfo{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+.videoInfo > div {
+  display: block;
+  padding: 0 0 1em 0;
+}
+.songDescrip{
+  color: #dbae52;
+}
+.songInfo {
+  color: gray;
+}
+.videoBackground {
+  background-color: #dbae52;
+}
+.videoButton {
+  text-align: center;
+}
+.videoButton > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.videoButton > a:hover {
+  background-color: #dbae52;
+  color: white;
+}
+.navigationFooter {
+  background-color: #dbae52;
+  text-align: center;
+  /* position: sticky; */
+  bottom: 0;
+  left: 0;
+}
+.navigationFooter > li{
+  display: inline-block;
+  text-align: center;
+  padding: 2em 2em;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  /* font-weight: bold; */
+}
+.navigationFooter li:hover {
+  color: gray;
+}
+.navigationFooter > li > a:visited {
+  color: white;
+}
+.navigationFooter > li > a {
+  text-decoration: none;
+}
+.navigationFooter > li > a:hover {
+  color: gray;
+}

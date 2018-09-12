@@ -67,6 +67,9 @@ body, html {
 .navigationGrid > li > a:hover {
   color: gray;
 }
+.navigationGrid > li > a:active {
+  color: white;
+}
 .links {
   padding: 1em 1em 1em 0;
   font-size: 30px;

@@ -85,7 +85,7 @@ body, html {
 }
 .melvinPic{
   background-color: gray;
-  background-image: url("/images/melvin-pic.jpg");
+  background-image: url("/images/melvin-pic-small.jpg");
   /* Full height */
   height: 91%;
 
